@@ -1,7 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+* {
+  font-family: "Kalam", cursive;
+}
 body {
   @apply text-white bg-gray-800;
 }
